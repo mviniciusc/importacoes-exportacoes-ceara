@@ -1,5 +1,7 @@
 # ANÁLISE DE MOVIMENTAÇÃO DE COMÉRCIO INTERNACIONAL DO CEARÁ
 
+Desenvolvido por Marcus Vinicius Cavalcante
+
 ## Introdução
 
 Bem-vindo(a). Esse projeto busca realizar análise da movimentação de carga nos portos do estado do Ceará visando comércio exterior. A intenção dessa análise é estabelecer um panorama das movimentações de carga e, a partir dessa visualização, formular observações e conclusões que guiem tomadas de decisão. Para alcançar esses objetivos, foram traçadas as seguintes perguntas:
