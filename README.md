@@ -6,7 +6,6 @@ Bem-vindo(a). Esse projeto busca realizar análise da movimentação de carga no
 
 * Existe algum país (ou grupo de países) que domina as exportações do estado?
 * Quais as principais diferenças entre produtos embarcados nos diferentes portos?
-* Qual o impacto da sazonalidade na exportação de frutas e produtos derivados?
 * Existem novos parceiros que vêm crescendo nas exportações cearenses?
 
 ## Importante
@@ -19,7 +18,7 @@ A fonte base dos dados reúne diversos dados públicos brasileiros.  Os dados s�
 
 No próprio site da fonte, em cada base de dados pode-se encontrar os componentes de cada tabela. Ao selecionar quais componentes serão visualizados, o prórpio site já fornece query a (SQL, python ou R) para correta visualização das colunas selecionadas.
 
-A base de dados escolhida contém registros a partir de janeiro de 1997. Porém, para evitar o enviesamento das análises com dados antigos, todas as análises foram feitas apenas com dados dos últimos 10 anos (até ago/2025).
+A base de dados escolhida contém registros a partir de janeiro de 1997. Porém, para evitar o enviesamento das análises com dados antigos, todas as análises foram feitas apenas com dados dos últimos 10 anos (até ago/2025), a menos que outro período seja explicitado.
 
 Todos os valores financeiros analisados se referem apenas ao valor da mercadoria. Não estão inclusos outros valores como frete e seguro.
 
@@ -33,9 +32,9 @@ Também foi utilizado Google Cloud via BigQuery para acessar os dados da Base do
 
 Foi possível identificar que o estado do Ceará possui grande dependência comercial das exportações para os Estados Unidos, notoriamente envolvendo produtos siderurgicos. Tal dependência pode representar uma vulnerabilidade, pois qualquer alteração nessa parceria pode ter grande impacto na economia estadual.
 
+Outro foco de análise permitiu identificar que os dois portos do estado (Pecém e Fortaleza) trabalham predominantemente com tipos de carga semelhante. Com forte dominância de derivados de aço, essa distribuição é importante para evitar a sobrecargas e subutilizações.
 
-
-Por fim, existem importantes parceiros comerciais que vêm crescendo em valor de negócios com o Ceará. Essas movimentações crescentes são importantes para que o estado fortaleça sua economia tanto em valor quanto em estabilidade. Portanto é interessante que se mantenham políticas voltadas a promover ainda mais essa diversificação.
+Por fim, existem importantes parceiros comerciais que vêm crescendo em valor de negócios com o Ceará. Essas movimentações crescentes são importantes para que o estado fortaleça sua economia tanto em valor quanto em estabilidade. Portanto é interessante que se mantenham políticas voltadas a manter essas relações crescendo e promover ainda mais essa diversificação.
 
 ## Como replicar
 
